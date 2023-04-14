@@ -22,7 +22,7 @@ Train 데이터에 대해 탐색 및 전처리(연속형 변수 변환, 왜도, 
 #### 2.4 실전 캠페인 적용 및 평가
 test 데이터에 대해 각각의 모델을 이용하여 예측합니다. 두 모델의 predict_proba 차이를 uplift score로 정의합니다. 그리고, uplift score를 기준으로 4개의 그룹(Persuadables / Sure Things / Lost Causes / Sleeping Dogs)으로 구분합니다. 그리고 이를 토대로 처치 성과를 평가합니다.
 
-총 4가지 과정을 거쳐서 진행합니다. Uplift Modeling Process에 대한 자세한 과정은 넥슨의 [업리프트 모델링을 통해 게임 광고 전환율 향상시키기](https://www.intelligencelabs.tech/5e047ef8-f811-47a8-9058-e6dfb2d5f8aa)을 참고하세요.
+총 4가지 과정을 거쳐서 진행합니다. Uplift Modeling Process에 대한 자세한 과정은 넥슨의 [업리프트 모델링을 통해 게임 광고 전환율 향상시키기](https://www.intelligencelabs.tech/5e047ef8-f811-47a8-9058-e6dfb2d5f8aa)을 참고하세요.
 
 ### 3. 처치 효율 비교
 데이터 탐색 결과 처치(Treatment / Exposure)에 따른 전환(Visit) 결과를 살펴봅니다.
